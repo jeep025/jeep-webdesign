@@ -1,0 +1,65 @@
+h1{
+	color:teal;
+	font-size: 50px;
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-family: cursive;
+}
+h3{
+	color:teal;
+	text-align: center;
+	opacity: 0.5;
+	height:15px;
+	width:200px;
+	border:1px dotted teal;
+	padding:5px 100px;
+	margin:0 auto;
+
+}
+.image{
+	background-image:url(https://upload.wikimedia.org/wikipedia/en/8/8e/YesterdayOnceMoreAlbum.jpg);
+	height: 300px;
+	width: 300px;
+	margin:0 auto;
+	opacity: 0.8;
+
+}
+.word{
+	font-family:arial;
+	background-color:teal;
+	color: white;
+	opacity: 0.75;
+	padding:1px 1px;
+	margin:10px 550px;
+
+}
+
+.first {
+	font-size: 15px;
+	color:white;
+	background-color: teal;
+	margin:8px 350px;
+
+}
+
+.second{
+	font-size: 15px;
+	margin:8px 350px;}
+
+.background{
+	background-image: url(https://i.ytimg.com/vi/YTaWayUE5XA/hqdefault.jpg);
+	height:360px;
+	width:480px;
+	margin:0 auto;
+	opacity: 0.5;
+	position:fixed;
+	left:550px;
+	right:550px;
+
+}
+/*
+.chinese{
+	font-family: Arial, sans-serif;
+}*/
