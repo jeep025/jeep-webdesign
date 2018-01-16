@@ -1,0 +1,69 @@
+body{
+	background-color: lightgrey;
+}
+
+.content{
+	width:300px;
+	height:900px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+	margin-top:50px;
+}
+
+.header{
+	flex:1;
+	margin:80px;
+	color:hotpink;
+}
+.def{
+	flex:1;
+	margin:80px;
+}
+
+.def:hover{
+ background-color:yellow;	
+}
+
+.usage{
+	flex:1;
+	margin:80px;
+}
+
+.usage:hover{
+ background-color: hotpink;	
+}
+.cat{
+	flex:1;
+	margin:80px;
+}
+
+.cat:hover{
+ background-color:pink;	
+}
+
+
+
+.defin{
+	background-color: yellow;
+	width:300px;
+	height:200px;
+	margin:700px auto;
+}
+
+.usa{
+	background-color: hotpink;
+	width:300px;
+	height:200px;
+	margin:700px auto;
+}
+
+.ca{
+	max-width:600px;
+	height:600px;
+	margin:300px auto;
+	background-color: pink;
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+}
+
