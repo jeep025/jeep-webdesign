@@ -14,14 +14,20 @@ body{
 
 .square{
 	opacity:0.3;
+	transition:width 2s,height 2s, transform 2s;
 }
-
+.square:hover{
+	width:150px;
+	height:600px;
+	transform:rotate(180deg);
+}
 .lighter, .darker{
 	margin-left:350px;
 }	
 
 .rec{
 	margin-top:350px;
+	animation:mymove 5s infinite;
 }
 
 .square:nth-child(4){
@@ -78,7 +84,15 @@ p{
 	transform: rotate(45deg)
 }
 
+.square:hover{
+	width:100px;
+}
 
+@keyframes mymove{
+	 from {opacity: 1: }
+    to {opacity: 0.1;}
+
+}
 
 
 	
