@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>trip</title>
+	<title>travel</title>
 	<link href="final.css" rel="stylesheet" type="text/css">
-	<script src="jquery-3.3.1.min.js"></script>
+	<script src="jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="final.js"></script>
-	<script src="jquery-ui.min.js"></script>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<nav onclick="openNav()">
@@ -20,24 +19,269 @@
 
 	<div id="mySidenav" class="sidenav">
   		<div><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
-  		<div><a href="#dl">DALIAN</a></div>
-  		<div><a href="#pvd">PROVIDENCE</a></div>
-  		<div><a href="#bos">BOSTON</a></div>
-  		<div><a href="#new">NEW YORK</a></div>
-  		<div><a href="#la">LOS ANGELES</a></div>
-  		<div><a href="#newport">NEW PORT</a></div>
-  		<div><a href="#mia">MIAMI</a></div>
+  		<div><a href="#cover">Preface</a></div>
+  		<div><a href="#dl">Dalian</a></div>
+  		<div><a href="#pvd">Providence</a></div>
+  		<div><a href="#bos">Boston</a></div>
+  		<div><a href="#new">New York</a></div>
+  		<div><a href="#la">Los Angeles</a></div>
+  		<div><a href="#newport">Newport</a></div>
+  		<div><a href="#mia">Miami</a></div>
+  		<div><a href="#code">Coding</a></div>
 	</div>
-	
-	<div id=cover>cover</div>
+<!--cover-->	
+	<div id=cover >
 
-	<div id=dl>dalian</div>
-	<div id=pvd>pvd</div>
-	<div id=bos>boston</div>
-	<div id=new>new york</div>
-	<div id=la>la</div>
-	<div id=newport>newport</div>
-	<div id=mia>miami</div>
+		<div id="rtext">
+  			<h2 class=ctext><span style="display:inline-block; width: 3em;"></span>A COLLECTION OF PHOTOS THAT I TOOK IN SEVERAL CITIES IN 2017....  </h2>
+  			<h2 class=chtext style="text-indent: 3em;"><chinese>在2017年，我走过了很多城市。每到一个城市我都会用相机记录下我的感受。</chinese></h2>
+		</div>
+		<video autoplay muted id="myVideo">
+  			<source src="myvideo.mp4" type="video/mp4">
+		</video>
+		<div class=arrow>
+		<a href="#dl" class="scroll-down"></a>
+		</div>
+	</div>
+
+<!--dalian-->	
+	<div id=dl class="contain">
+		<img src="export/DSC01460.jpg" alt="Dalian" class="im">
+		<div class=ti>DALIAN</div>
+		<div class="midd">
+			<div class=textdl>Dalian, is the city where I was born. It is a coastal city and seaport in the south of Liaoning Province, China. It is the southernmost city of the Liaodong Peninsula. Most of my memory of Dalian is the seashore, beach and sunshine. And also, my family and friends. 
+			</div>
+		</div>
+		<div class=arrow>
+		<a href="#flight1" class="sr"></a>
+		</div>
+
+	</div>
+<!--flight-->	
+	<div id="flight1">
+		<div class=lo>
+			<h3 class=st>Dalian</h3>
+			<div class="line1"></div>
+		</div>
+		
+		<h3 class=ts>Providence</h3>
+		
+		<div class=block>
+			<p class=info1 >Distance: over 7000 miles</p>
+			<p class=info1 >Time: over 20 hours</p>
+			<p class=info2 >Cost: over 1000 USD</p>
+			<p class=info3 >Feeling: tired</p>
+		</div>
+		<div class=arrow>
+		<a href="#pvd" class="srco"></a>
+		</div>
+	</div>
+<!--pvd-->
+
+	<div id=pvd class="conta">
+		<img src="export/pvd1.jpg" alt="Providence" class="i">
+		<div class=pr>PROVIDENCE</div>
+		<div class="mid">
+			<div class=textpr>In 2016 summer, I arrived at Providence. The first impression of Providence is that the weather here is so similar to my hometown’s. My main memory about Providence is the overwhelming homework from school. The photo was took at Wickenden street during winter, one block away from where I live. 
+			</div>
+		</div>
+		<div class=arrow>
+			<a href="#road" class="ss"></a>
+		</div>
+	</div>
+<!--road-->
+	<div id=road>
+		<div class=l>
+			<h3 class=stt>Providence</h3>
+			<div class="line2"></div>
+		</div>
+		
+		<h3 class=tss>Boston</h3>
+		
+		<div class=block2>
+			<p class=info1 >Distance: around 40 miles</p>
+			<p> Date:fall 2016
+			<p class=info1 >Time: 50mins </p>
+			<p class=info2 >Cost: around 8 USD</p>
+			<p class=info3 >Feeling: not bad</p>
+		</div>
+		<div class=arrow>
+		<a href="#bos" class="srcolld"></a>
+		</div>
+	</div>
+
+<!--bos-->
+	<div id=bos class=cont>
+		<img src="export/bos22.jpg" alt="Boston" class="ii">
+		<div class=bo>Boston</div>
+		<div class="mi">
+			<div class=textbo>Due to some landscape architecture homework, I have been to Boston, especially North end area, a lot of times. In comparison to the city scale of Providence, Boston seems to be a big city. However, for me, a person who had lived in Beijing for five years for my undergraduate school, Boston is more like a medium-size district of a big city. By the way, this photo was took at Boston Public Library. I was impressed by the interior architecture by then. 
+			</div>
+		</div>
+		<div class=arrow>
+		<a href="#road2" class="soll"></a>
+		</div>
+	</div>
+<!--road2-->	
+	<div id=road2>
+		<div class=lll>
+			<h3 class=sttt>Providence</h3>
+			<div class="line3"></div>
+		</div>
+		
+		<h3 class=tsss>New York</h3>
+		
+		<div class=block3>
+			<p class=info1 >Distance: around 156 miles</p>
+			<p> Date:new year's eve 2017
+			<p class=info1 >Time: around 4 hours </p>
+			<p class=info2 >Cost: around 25 USD</p>
+			<p class=info3 >Feeling: freezing</p>
+		</div>
+		<div class=arrow>
+		<a href="#new" class="srcolldo"></a>
+		</div>
+	</div>
+<!--newyork-->
+	<div id=new class=co>
+		<img src="export/DSC00089.jpg" alt="New-York" class="iii">
+		<div class=ne>New York</div>
+		<div class="mii">
+			<div class=textne>The first month of 2017 is really chilly! Different from Boston and Providence, almost everywhere in New York is crowded. This photo was took at Guggenheim Museum, a museum that I believe is famous for its architecture style instead of its art works inside.
+			</div>
+		</div>
+		<div class=arrow>
+		<a href="#road3" class="solll"></a>
+		</div>
+	</div>
+<!--road3-->
+	<div id=road3>
+		<div class=llll>
+			<h3 class=stttt>Providence</h3>
+			<div class="line4"></div>
+		</div>
+		
+		<h3 class=tssss>Los Angeles</h3>
+		
+		<div class=block4>
+			<p class=info1 >Distance: around 2968 miles</p>
+			<p> Date:spring break 2017
+			<p class=info1 >Time: around 4 hours </p>
+			<p class=info2 >Cost: around 400 USD</p>
+			<p class=info3 >Feeling: exciting</p>
+		</div>
+		<div class=arrow>
+		<a href="#la" class="srcolldow"></a>
+		</div>
+	</div>
+<!--la1-->
+	<div id=la class=coo>
+		<img src="export/DSC00624.jpg" alt="Getty-Center" class="iiii">
+		<div class=la1>Getty Center</div>
+		<div class="miii">
+			<div class=textla1>This picture shows the entrance area of Getty Center, which is a station of the cable car. Back then, I was attracted to the shadow on the ceiling of the station. Subtle but powerful!
+			</div>
+		</div>
+		<div class=arrow>
+		<a href="#la2" class="sollll"></a>
+		</div>
+	</div>
+<!--la2-->	
+	<div id=la2 class=cooo>
+			<img src="export/31.jpg" alt="USC" class="iiii">
+		<div class=la2>USC</div>
+		<div class="miiii">
+			<div class=textla2>It was the beginning of the spring in 2017. The weather in Los Angeles is balm and comfortable. The landscape, lawns, trees and pavilions,  inside USC is really beautiful. By the way, the style of architecture in west coast is dramatically different from the east coast’s. 
+			</div>
+		</div>
+		<div class=arrow>
+		<a href="#road4" class="solllll"></a>
+		</div>
+	</div>
+<!--road4-->
+	<div id=road4>
+		<div class=lllll>
+			<h3 class=sttttt>Providence</h3>
+			<div class="line5"></div>
+		</div>
+		
+		<h3 class=tsssss>Newport</h3>
+		
+		<div class=block5>
+			<p class=info1 >Distance: around 37 miles</p>
+			<p> Date:Thanksgiving 2017
+			<p class=info1 >Time: around 40 mins </p>
+			<p class=info2 >Cost: around 10 USD</p>
+			<p class=info3 >Feeling: pretty good</p>
+		</div>
+		<div class=arrow>
+		<a href="#newport" class="srcolldoww"></a>
+		</div>
+	</div>
+<!--newport-->	
+	<div id=newport class=coooo>
+				<img src="export/35.jpg" alt="Newport" class="iiiii">
+		<div class=np>Newport</div>
+		<div class="miiiii">
+			<div class=textnp>Ironically, even though Providence is so close to Newport, and even though I have been moved to Providence for almost two years, my first visit to Newport was during 2017’s Thanksgiving day. This picture was took at a seashore along the Ocean Drive Historic District. My friend Shu was taking a photo of the ocean. And at the meantime, I was capturing this moment. 
+			</div>
+		</div>
+		<div class=arrow>
+		<a href="#mia" class="sollllll"></a>
+		</div>
+	</div>
+<!--road5-->
+	<div id=road5>
+		<div class=llllll>
+			<h3 class=stttttt>Providence</h3>
+			<div class="line6"></div>
+		</div>
+		
+		<h3 class=tssssss>Miami</h3>
+		
+		<div class=block6>
+			<p class=info1 >Distance: around 1463 miles</p>
+			<p> Date:Winter break 2017
+			<p class=info1 >Time: around 3 hours </p>
+			<p class=info2 >Cost: around 300 USD</p>
+			<p class=info3 >Feeling: enjoy</p>
+		</div>
+		<div class=arrow>
+		<a href="#mia" class="srcolldowww"></a>
+		</div>
+	</div>
+<!--mia-->
+	<div id=mia class=cooooo>
+			<img src="export/554.jpg" alt="Keywest" class="iiiiii">
+		<div class=kw>Key West</div>
+		<div class="miiiiii">
+			<div class=textkw>Key West, a small island, is known as Florida's southernmost point. In order to avoid the freezing weather in New England, we chose to spend the whole winter break in Florida. For me, I was quite into the sightseeing of sky and sea.  
+			</div>
+		</div>
+		<div class=arrow>
+		<a href="#mia2" class="solllllll"></a>
+		</div>	
+	</div>
+<!--mia2-->
+	<div id=mia2 class=coooook>
+			<img src="export/1122.jpg" alt="Keywest2" class="iiiiiik">
+		<div class=kwk>Key West</div>
+		<div class="miiiiiik">
+			<div class=textkwk>Half of the picture is occupied by the road, the rest half of the picture is all about the sea. I was hoping to spend more time in Miami during the winter.  
+			</div>
+		</div>
+		<div class=arrow>
+		<a href="#code" class="solllllllk"></a>
+		</div>
+	</div>
+<!--coding-->
+	<div id=code>coding</div>
+
+
+
+
+
+
 
 </body>
 </html>
