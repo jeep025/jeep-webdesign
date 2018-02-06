@@ -12,7 +12,7 @@ height:100%;
 
 /*sidebar*/
 .bar{
-	   width: 2.5%;
+	   width: 45px;
     height: 5px;
     background-color:#424243;
     margin: 6px 0;
@@ -27,9 +27,10 @@ height:100%;
     background-color: grey;
     opacity:0.5; 
     overflow-x: hidden; 
-    padding-top: 60px;
+    padding-top:5%;
     transition: 0.5s; 
     z-index: 11;
+     font-family: Comic Sans MS;
 }
 
 
@@ -41,7 +42,7 @@ height:100%;
     color: white;
     display: block;
     transition: 0.3s;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
@@ -55,13 +56,6 @@ height:100%;
     right: 35px;
     font-size: 36px;
     margin-left: 70px;
-}
-
-
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
 }
 
 .nav{
@@ -82,15 +76,16 @@ height:100%;
   width:100%;
   height:auto;
   overflow: hidden;
+  font-family: Comic Sans MS;
 }
 
 #myVideo {
 position:relative;
-width:100%;
+width:100vw;
 height:auto;
-  right:0;
-  bottom:0;
-    overflow: hidden;
+top:0;
+right:0;
+overflow: hidden;
 }
 
 .ctext{
@@ -108,6 +103,9 @@ height:auto;
     animation-delay: 3s;
     z-index: 10;
      animation-fill-mode: both;
+      font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 .chtext{
@@ -158,15 +156,15 @@ height:auto;
 
 .contain{
   position:relative;
-  top:0;
+  top:-5px;
   width:100%;
   height:auto;
 }
 
 .im {
-  display: block;
+  position:relative;
   top:0;
-   width:100%;
+   width:100vw;
   height:auto;
 }
 .ti{
@@ -177,9 +175,14 @@ height:auto;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-  border-style:solid;
-  border-width: 2px;
+   border-style: double;
+    border-width: thick;
+    border-color:#d3d3d3;
     cursor: pointer;
+    font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
+
 }
 
 .midd {
@@ -217,19 +220,23 @@ height:auto;
 /*flight1*/
 
 #flight1{
+  top:-9.5px;
   position: relative;
   color:white;
-
   width:100%;
-     height:100%;
-  background-color: black;
-
+  height:auto;
+}
+.em {
+  position:relative;
+  top:0;
+   width:100vw;
+  height:auto;
 }
 
 
 
 .lo{
-  position: relative;
+  position: absolute;
   left:26%;
   top:10%;
 }
@@ -242,6 +249,8 @@ height:auto;
   border-style:solid;
   border-width: 2px;
     cursor: pointer;
+    z-index: 30;
+
 }
 
 
@@ -253,21 +262,19 @@ height:auto;
 }
 
 .st:hover+.line1 {
-
-  height:600px;
+ height:600px;
 }
 
 .ts{
   position: absolute;
-  top:78%;
+  top:80%;
   left:26%;
 }
 
 .block{
     position: absolute;
-  top:370px;
-  left:790px;
-  display:block;
+  top:37%;
+  left:70%;
   display:none;
 }
 
@@ -288,15 +295,16 @@ height:auto;
 /*pvd*/
 .conta{
   position:relative;
-  top:0;
+  top:-14px;
   width:100%;
+  height:auto;
 }
 
 .i {
   display: block;
   top:0;
-  width: 100vw;
-  height: 100vh;
+   width:100vw;
+  height:auto;
 }
 
 .pr{
@@ -348,19 +356,24 @@ height:auto;
 /*road frompvd-bos*/
 #road{
   position: relative;
-  color:white;
-    height:100vh;
-  width:100vw;
-  background-color: black;
+  width:100%;
+  height:auto;
+  top:-20px;
 
 }
 
+.eem {
+  position:relative;
+  top:0;
+   width:100vw;
+  height:auto;
+}
 
 
 .l{
-  position: relative;
-  left:300px;
-  top:100px;
+  position: absolute;
+  left:26%;
+  top:10%;
 }
 
 .stt{
@@ -388,16 +401,17 @@ height:auto;
 
 .tss{
   position: absolute;
-  top:210px;
-  left:300px;
+  top:22%;
+  left:26%;
+  color:white;
 }
 
 .block2{
     position: absolute;
-  top:370px;
-  left:790px;
-  display:block;
+   top:37%;
+  left:70%;
   display:none;
+  color:white;
 }
 
 .srcolld:before {
@@ -418,15 +432,16 @@ height:auto;
 
 .cont{
   position:relative;
-  top:0;
+  top:-25px;
   width:100%;
+  height:auto;
 }
 
 .ii {
   display: block;
   top:0;
-  width: 100vw;
-  height: 100vh;
+   width:100vw;
+  height:auto;
 }
 
 .bo{
@@ -479,19 +494,26 @@ height:auto;
 
 #road2{
   position: relative;
-  color:white;
-    height:100vh;
-  width:100vw;
-  background-color: black;
+  width:100%;
+  height:auto;
+  top:-25px;
 
+}
+
+.eeem {
+  position:relative;
+  top:0;
+   width:100vw;
+  height:auto;
 }
 
 
 
 .lll{
-  position: relative;
-  left:300px;
-  top:100px;
+  position: absolute;
+  left:26%;
+  top:10%;
+  color:white;
 }
 
 .sttt{
@@ -518,16 +540,17 @@ height:auto;
 
 .tsss{
   position: absolute;
-  top:350px;
-  left:300px;
+  top:37%;
+  left:26%;
+  color:white;
 }
 
 .block3{
-    position: absolute;
-  top:370px;
-  left:790px;
-  display:block;
+     position: absolute;
+   top:37%;
+  left:70%;
   display:none;
+  color:white;
 }
 
 .srcolldo:before {
@@ -547,15 +570,15 @@ height:auto;
 
 .co{
   position:relative;
-  top:0;
+  top:-29px;
   width:100%;
 }
 
 .iii {
   display: block;
-  top:0;
-  width: 100vw;
-  height: 100vh;
+   top:0;
+   width:100vw;
+  height:auto;
 }
 
 .ne{
@@ -608,19 +631,24 @@ height:auto;
 
 #road3{
   position: relative;
-  color:white;
-    height:100vh;
-  width:100vw;
-  background-color: black;
+  width:100%;
+  height:auto;
+  top:-29px;
 
 }
 
+.eeeem {
+  position:relative;
+  top:0;
+   width:100vw;
+  height:auto;
+}
 
 
 .llll{
-  position: relative;
-  left:300px;
-  top:100px;
+  position: absolute;
+  left:26%;
+  top:10%;
 }
 
 .stttt{
@@ -647,16 +675,18 @@ height:auto;
 
 .tssss{
   position: absolute;
-  top:550px;
-  left:300px;
+  top:58%;
+  left:26%;
+  color:white;
 }
 
-.block4{
-    position: absolute;
-  top:370px;
-  left:790px;
-  display:block;
+
+ .block4{
+     position: absolute;
+   top:37%;
+  left:70%;
   display:none;
+  color:white;
 }
 
 .srcolldow:before {
@@ -676,15 +706,16 @@ height:auto;
 
 .coo{
   position:relative;
-  top:0;
+  top:-33px;
   width:100%;
+  height:auto;
 }
 
 .iiii {
   display: block;
   top:0;
-  width: 100vw;
-  height: 100vh;
+   width:100vw;
+  height:auto;
 }
 
 .la1{
@@ -736,15 +767,16 @@ height:auto;
 /*la2*/
 .cooo{
   position:relative;
-  top:0;
+  top:-33px;
   width:100%;
+  height:auto;
 }
 
 .iiiii {
   display: block;
   top:0;
-  width: 100vw;
-  height: 100vh;
+   width:100vw;
+  height:auto;
 }
 
 .la2{
@@ -797,19 +829,25 @@ height:auto;
 
 #road4{
   position: relative;
-  color:white;
-    height:100vh;
-  width:100vw;
-  background-color: black;
+  width:100%;
+  height:auto;
+  top:-35px;
 
 }
 
 
+.eeeeem {
+  position:relative;
+  top:0;
+   width:100vw;
+  height:auto;
+}
+
 
 .lllll{
-  position: relative;
-  left:300px;
-  top:100px;
+  position: absolute;
+  left:26%;
+  top:10%;
 }
 
 .sttttt{
@@ -836,16 +874,17 @@ height:auto;
 
 .tsssss{
   position: absolute;
-  top:245px;
-  left:300px;
+  top:25%;
+  left:26%;
+  color:white;
 }
 
 .block5{
-    position: absolute;
-  top:370px;
-  left:790px;
-  display:block;
+   position: absolute;
+   top:37%;
+  left:70%;
   display:none;
+  color:white
 }
 
 .srcolldoww:before {
@@ -864,15 +903,16 @@ height:auto;
 /*newport*/
 .coooo{
   position:relative;
-  top:0;
+  top:-40px;
   width:100%;
+  height:auto;
 }
 
 .iiiii {
   display: block;
   top:0;
-  width: 100vw;
-  height: 100vh;
+   width:100vw;
+  height:auto;
 }
 
 .np{
@@ -922,21 +962,21 @@ height:auto;
 }
 
 /*road5*/
+
 #road5{
   position: relative;
-  color:white;
-    height:100vh;
-  width:100vw;
-  background-color: black;
+  width:100%;
+  height:auto;
+  top:-40px;
 
 }
 
 
 
 .llllll{
-  position: relative;
-  left:300px;
-  top:100px;
+  position:absolute;
+  left:26%;
+  top:10%;
 }
 
 .stttttt{
@@ -963,16 +1003,17 @@ height:auto;
 
 .tssssss{
   position: absolute;
-  top:545px;
-  left:300px;
+  top:58%;
+  left:26%;
+  color:white;
 }
 
 .block6{
-    position: absolute;
-  top:370px;
-  left:790px;
-  display:block;
+   position: absolute;
+   top:37%;
+  left:70%;
   display:none;
+  color:white
 }
 
 .srcolldowww:before {
@@ -992,15 +1033,15 @@ height:auto;
 /*mia*/
 .cooooo{
   position:relative;
-  top:0;
+  top:-44px;
   width:100%;
 }
 
 .iiiiii {
   display: block;
-  top:0;
-  width: 100vw;
-  height: 100vh;
+   top:0;
+   width:100vw;
+  height:auto;
 }
 
 .kw{
@@ -1052,15 +1093,15 @@ height:auto;
 /*mia2*/
 .coooook{
   position:relative;
-  top:0;
+  top:-44px;
   width:100%;
 }
 
 .iiiiiik {
   display: block;
   top:0;
-  width: 100vw;
-  height: 100vh;
+   width:100vw;
+  height:auto;
 }
 
 .kwk{
@@ -1117,7 +1158,60 @@ height:auto;
 	display:flex;
 	align-items: center;
 	justify-content: center;
+  position:relative;
+  width:100%;
 }
+
+.solllllllkk:before {
+    position: absolute;
+    top: calc(95% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(135deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid black;
+    border-width: 0px 0 2px 2px;
+    z-index: 30;
+}
+
+/*media responsive375*/
+
+@media screen and (max-width: 375px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*media1300*/
+
+@media screen and (max-width: 1300px) {
+.mi,.midd,.mid,.mii,.miii,.miiii,.miiiii,.miiiiii,.miiiiiik{
+  top: 50%;
+  
+}
+
+/*media667*/
+@media screen and (max-width: 667px) {
+.mi,.midd,.mid,.mii,.miii,.miiii,.miiiii,.miiiiii,.miiiiiik{
+  top: 50%;
+  width:60vw;
+}
+.ti{  
+
+  font-size: 10px;
+  padding: 8px 16px;
+   border-style: double;
+    border-width: thick;
+  }
+.textdl,.textpr,.textbo,.textne,.textla1,.textla2,.textnp,.textkw,.textkwk{
+  font-size:10px;
+}
+
+
+
+
+
 
 
 
