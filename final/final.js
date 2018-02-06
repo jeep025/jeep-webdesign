@@ -123,3 +123,41 @@ $(document).ready(function(){
 
     });
 });
+
+$(document).ready(function(){
+    $(".st").click(function(){
+        $(".line1").slideDown("slow");
+    });
+});
+
+$(document).ready(function(){
+    $(".stt").click(function(){
+        $(".line2").slideDown("slow");
+    });
+});
+
+$(document).ready(function(){
+    $(".sttt").click(function(){
+        $(".line3").slideDown("slow");
+    });
+});
+
+$(document).ready(function(){
+    $(".stttt").click(function(){
+        $(".line4").slideDown("slow");
+    });
+});
+$(document).ready(function(){
+    $(".sttttt").click(function(){
+        $(".line5").slideDown("slow");
+    });
+});
+
+
+$(document).ready(function(){
+    $(".stttttt").click(function(){
+        $(".line6").slideDown("slow");
+    });
+});
+
+

@@ -30,7 +30,8 @@ height:100%;
     padding-top:5%;
     transition: 0.5s; 
     z-index: 11;
-     font-family: Comic Sans MS;
+        font-family: Cochin;
+     
 }
 
 
@@ -43,6 +44,7 @@ height:100%;
     display: block;
     transition: 0.3s;
     margin-top: 30px;
+         font-family: Cochin;
 }
 
 
@@ -175,13 +177,13 @@ overflow: hidden;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-   border-style: double;
-    border-width: thick;
-    border-color:#d3d3d3;
     cursor: pointer;
     font-family: Cochin;
     font-weight:Bold;
     font-style:italic;
+     border-style: double;
+    border-width: thick;
+    border-color:#929292;
 
 }
 
@@ -202,6 +204,7 @@ overflow: hidden;
   padding: 16px 32px;
   opacity:0.7;
   display: none;
+   font-family: Cochin;
 }
 
 .sr:before {
@@ -246,29 +249,35 @@ overflow: hidden;
   border-color: white;
   color:white;
   padding:10px;
-  border-style:solid;
+  border-style: groove;
   border-width: 2px;
+  border-color:#929292;
     cursor: pointer;
     z-index: 30;
+       font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 
 }
 
 
 .line1{
-  width:10px;
-  height:0px;
+  display: none;
+
+  width:5px;
+  height:630px;
   background-color: white;
-  transition:height 6s;
+
 }
 
-.st:hover+.line1 {
- height:600px;
-}
 
 .ts{
   position: absolute;
   top:80%;
   left:26%;
+     font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 .block{
@@ -276,6 +285,9 @@ overflow: hidden;
   top:37%;
   left:70%;
   display:none;
+    font-family: Cochin;
+    font-style:italic;
+    font-size:25px;
 }
 
 .srco:before {
@@ -315,9 +327,13 @@ overflow: hidden;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-  border-style:solid;
-  border-width: 2px;
     cursor: pointer;
+    font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
+     border-style: double;
+    border-width: thick;
+    border-color:#929292;
 }
 
 .mid {
@@ -381,22 +397,23 @@ overflow: hidden;
   border-color: white;
   color:white;
   padding:10px;
-  border-style:solid;
+  border-style: groove;
   border-width: 2px;
+  border-color:#929292;
     cursor: pointer;
+       font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 
 .line2{
+  display: none;
+
   width:5px;
-  height:0px;
+  height:7.5vh;
   background-color: white;
-  transition:height 2s;
-}
 
-.stt:hover+.line2 {
-
-  height:63px;
 }
 
 .tss{
@@ -404,6 +421,9 @@ overflow: hidden;
   top:22%;
   left:26%;
   color:white;
+     font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 .block2{
@@ -412,6 +432,9 @@ overflow: hidden;
   left:70%;
   display:none;
   color:white;
+    font-family: Cochin;
+    font-style:italic;
+    font-size:25px;
 }
 
 .srcolld:before {
@@ -452,9 +475,13 @@ overflow: hidden;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-  border-style:solid;
-  border-width: 2px;
     cursor: pointer;
+    font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
+     border-style: double;
+    border-width: thick;
+    border-color:#929292;
 }
 
 .mi {
@@ -474,6 +501,7 @@ overflow: hidden;
   padding: 16px 32px;
   opacity:0.7;
   display: none;
+     font-family: Cochin;
 }
 
 .soll:before {
@@ -521,28 +549,33 @@ overflow: hidden;
   border-color: white;
   color:white;
   padding:10px;
-  border-style:solid;
+  border-style: groove;
   border-width: 2px;
+  border-color:#929292;
     cursor: pointer;
+       font-family: Cochin;
+    font-style:italic;
 }
 
 
 .line3{
-  width:4px;
-  height:0px;
+  display: none;
+
+  width:5px;
+  height:210px;
   background-color: white;
-  transition:height 2s;
+
 }
 
-.sttt:hover+.line3 {
-  height:200px;
-}
 
 .tsss{
   position: absolute;
   top:37%;
   left:26%;
   color:white;
+     font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 .block3{
@@ -551,6 +584,9 @@ overflow: hidden;
   left:70%;
   display:none;
   color:white;
+    font-family: Cochin;
+    font-style:italic;
+    font-size:25px;
 }
 
 .srcolldo:before {
@@ -589,9 +625,13 @@ overflow: hidden;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-  border-style:solid;
-  border-width: 2px;
     cursor: pointer;
+    font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
+     border-style: double;
+    border-width: thick;
+     border-color:#929292;
 }
 
 .mii {
@@ -611,6 +651,7 @@ overflow: hidden;
   padding: 16px 32px;
   opacity:0.7;
   display: none;
+     font-family: Cochin;
 }
 
 .solll:before {
@@ -656,28 +697,32 @@ overflow: hidden;
   border-color: white;
   color:white;
   padding:10px;
-  border-style:solid;
+  border-style: groove;
   border-width: 2px;
+  border-color:#929292;
     cursor: pointer;
+       font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 
 .line4{
+  display: none;
+
   width:5px;
-  height:0px;
-  background-color: white;
-  transition:height 2s;
-}
-
-.stttt:hover+.line4 {
   height:405px;
-}
+  background-color: white;
 
+}
 .tssss{
   position: absolute;
   top:58%;
   left:26%;
   color:white;
+     font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 
@@ -687,6 +732,9 @@ overflow: hidden;
   left:70%;
   display:none;
   color:white;
+    font-family: Cochin;
+    font-style:italic;
+    font-size:25px;
 }
 
 .srcolldow:before {
@@ -726,9 +774,13 @@ overflow: hidden;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-  border-style:solid;
-  border-width: 2px;
     cursor: pointer;
+    font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
+     border-style: double;
+    border-width: thick;
+  border-color:#929292;
 }
 
 .miii {
@@ -748,6 +800,7 @@ overflow: hidden;
   padding: 16px 32px;
   opacity:0.7;
   display: none;
+     font-family: Cochin;
 }
 
 .sollll:before {
@@ -787,9 +840,13 @@ overflow: hidden;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-  border-style:solid;
-  border-width: 2px;
     cursor: pointer;
+    font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
+     border-style: double;
+    border-width: thick;
+  border-color:#929292;
 }
 
 .miiii {
@@ -809,6 +866,7 @@ overflow: hidden;
   padding: 16px 32px;
   opacity:0.7;
   display: none;
+     font-family: Cochin;
 }
 
 .solllll:before {
@@ -855,28 +913,34 @@ overflow: hidden;
   border-color: white;
   color:white;
   padding:10px;
-  border-style:solid;
+  border-style: groove;
   border-width: 2px;
+  border-color:#929292;
     cursor: pointer;
+       font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 
 .line5{
+  display: none;
+
   width:5px;
-  height:0px;
+  height:100px;
   background-color: white;
-  transition:height 2s;
+
 }
 
-.sttttt:hover+.line5 {
-  height:100px;
-}
 
 .tsssss{
   position: absolute;
   top:25%;
   left:26%;
   color:white;
+     font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 .block5{
@@ -884,7 +948,10 @@ overflow: hidden;
    top:37%;
   left:70%;
   display:none;
-  color:white
+  color:white;
+    font-family: Cochin;
+    font-style:italic;
+    font-size:25px;
 }
 
 .srcolldoww:before {
@@ -923,9 +990,13 @@ overflow: hidden;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-  border-style:solid;
-  border-width: 2px;
     cursor: pointer;
+    font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
+     border-style: double;
+    border-width: thick;
+  border-color:#929292;
 }
 
 .miiiii {
@@ -945,6 +1016,8 @@ overflow: hidden;
   padding: 16px 32px;
   opacity:0.7;
   display: none;
+     font-family: Cochin;
+  
 }
 
 .sollllll:before {
@@ -984,28 +1057,34 @@ overflow: hidden;
   border-color: white;
   color:white;
   padding:10px;
-  border-style:solid;
+   border-style: groove;
   border-width: 2px;
+  border-color:#929292;
     cursor: pointer;
+       font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 
 .line6{
+  display: none;
+
   width:5px;
-  height:0px;
+  height:415px;
   background-color: white;
-  transition:height 2s;
+
 }
 
-.stttttt:hover+.line6 {
-  height:400px;
-}
 
 .tssssss{
   position: absolute;
   top:58%;
   left:26%;
   color:white;
+     font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 .block6{
@@ -1013,7 +1092,10 @@ overflow: hidden;
    top:37%;
   left:70%;
   display:none;
-  color:white
+  color:white;
+    font-family: Cochin;
+    font-style:italic;
+    font-size:25px;
 }
 
 .srcolldowww:before {
@@ -1052,9 +1134,13 @@ overflow: hidden;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-  border-style:solid;
-  border-width: 2px;
     cursor: pointer;
+    font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
+     border-style: double;
+    border-width: thick;
+  border-color:#7a7a7a;
 }
 
 .miiiiii {
@@ -1074,6 +1160,8 @@ overflow: hidden;
   padding: 16px 32px;
   opacity:0.7;
   display: none;
+     font-family: Cochin;
+  
 }
 
 .solllllll:before {
@@ -1112,9 +1200,13 @@ overflow: hidden;
   color: white;
   font-size: 20px;
   padding: 16px 32px;
-  border-style:solid;
-  border-width: 2px;
     cursor: pointer;
+    font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
+     border-style: double;
+    border-width: thick;
+  border-color:#929292;
 }
 
 .miiiiiik {
@@ -1134,6 +1226,7 @@ overflow: hidden;
   padding: 16px 32px;
   opacity:0.7;
   display: none;
+     font-family: Cochin;
 }
 
 .solllllllk:before {
@@ -1160,6 +1253,9 @@ overflow: hidden;
 	justify-content: center;
   position:relative;
   width:100%;
+     font-family: Cochin;
+    font-weight:Bold;
+    font-style:italic;
 }
 
 .solllllllkk:before {
@@ -1187,7 +1283,31 @@ overflow: hidden;
 
 @media screen and (max-width: 1300px) {
 .mi,.midd,.mid,.mii,.miii,.miiii,.miiiii,.miiiiii,.miiiiiik{
-  top: 50%;
+  top: 50%;}
+  .ctext{
+  width: 50%;
+  padding: 15px;
+  margin:20% 10%;
+  line-height: 0.75;
+   }
+   .line1{
+    height:480px;
+   }
+  
+      .line3{
+    height:160px;
+   }
+        .line4{
+    height:315px;
+   }
+
+         .line5{
+    height:70px;
+   }
+         .line6{
+    height:313px;
+   }
+  
   
 }
 
@@ -1195,18 +1315,97 @@ overflow: hidden;
 @media screen and (max-width: 667px) {
 .mi,.midd,.mid,.mii,.miii,.miiii,.miiiii,.miiiiii,.miiiiiik{
   top: 50%;
-  width:60vw;
-}
-.ti{  
-
+  width:60vw;}
+.ti,.pr,.bo,.ne,.la1,.la2,.np,.kw,.kwk{  
   font-size: 10px;
-  padding: 8px 16px;
+  padding: 5px 12px;
    border-style: double;
-    border-width: thick;
-  }
+    border-width: thick;}
 .textdl,.textpr,.textbo,.textne,.textla1,.textla2,.textnp,.textkw,.textkwk{
   font-size:10px;
+   padding: 8px 16px;}
+   .scroll-down:before,.sr:before,.srco:before,.ss:before,.srcolld:before,.soll:before,.srcolldo:before,.solll:before,.srcolldow:before,.sollll:before,.solllll:before,.srcolldoww:before,.sollllll:before,.srcolldowww:before,.solllllll:before,
+.solllllllk:before {    top: calc(80% - 8px);}
+.bar{
+     width: 25px;
+    height: 3px;
+    margin: 3px 0;}
+
+
+.sidenav a {
+    padding: 2px 2px 2px 4px;
+    font-size: 10px;
+    margin-top: 15px;}
+
+ .ctext{
+  width: 30%;
+  padding: 15px;
+  margin:20% 10%;
+  line-height: 0.75;
+  font-size: 13px;}
+ 
+
+ .lo,.l,.lll,.llll,.lllll,.llllll{
+  top:20%;
+} 
+  .st,.stt,.sttt,.stttt,.sttttt,.stttttt{
+  width:63px;
+  height:15px;
+  padding:5px;
+  font-size:15px;
 }
+
+
+.line1,.line2,.line3,.line4,.line5,.line6{
+  width:3px;
+}
+
+.st:hover+.line1 {
+ height:600px;
+}
+
+.ts,.tss,.tsss,.tssss,.tsssss,.tssssss{
+   font-size:15px;
+}
+.tss{
+  top:30%;
+}
+.tsssss{top:40%;}
+.block,.block2,.block3,.block4,.block5,.block6{
+  left:55%;
+font-size: 15px;
+}
+
+}
+
+
+
+
+ ::-webkit-scrollbar-track-piece{
+  background-color:black;
+  -webkit-border-radius:10;
+}
+::-webkit-scrollbar{
+  width:0px;
+  height:0px;
+}
+::-webkit-scrollbar-thumb{
+  height:10px;
+  background-color:grey;
+  -webkit-border-radius:0px;
+  outline:2px solid #fff;
+  outline-offset:-0px;
+  border: 0px solid #fff;
+}
+::-webkit-scrollbar-thumb:hover{
+  height:200px;
+  background-color:hotpink;
+  -webkit-border-radius:0px;
+}
+
+
+
+
 
 
 
