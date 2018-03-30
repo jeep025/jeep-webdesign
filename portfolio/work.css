@@ -149,7 +149,7 @@ header{
 }
 .whead{
     grid-column: 1/4;
-  grid-row:11/12;
+  grid-row:10/11;
   margin:3% auto;
 }
 section{
