@@ -32,7 +32,7 @@ font-family:"Book Antiqua" ;
 }
 
 .port{
-  margin-right :25%;
+  margin-right :16%;
 }
 
 .drop{
@@ -62,11 +62,14 @@ font-family:"Book Antiqua" ;
 
 .contain{
   position:relative;
- height:100%;
+  min-width:1024px;
+ min-height:100%;
   background-image:url("11.jpg");
    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width:100%;
+    height:auto;
 }
 
 .title {
@@ -491,9 +494,8 @@ img{
 }
 /*pages*/
 .page1{
- height:100vh;
   background-image:url("a1.jpg");
-   background-position: center;
+  background-position:50% 50%; 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -745,8 +747,9 @@ img{
    position:relative;
  height:100vh;
   background-image:url("d2.jpg");
-   background-position: center;
+   background-position: center center;
     background-repeat: no-repeat;
+     background-attachment: fixed;
     background-size: cover;
 }
 
@@ -1159,6 +1162,9 @@ img{
     color:red;
     opacity: 0.7;
   }
+
+  /*media query*/
+
 /*scrollerbar*/
 
  /*::-webkit-scrollbar-track-piece{
